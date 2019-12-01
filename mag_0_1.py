@@ -1,12 +1,13 @@
 from exchangelib import Credentials, Account, Folder, DELEGATE, Configuration
 import requests
 
-credentials = Credentials(username = "nlp-test",
-                          password = "p1KVJWPDxtRgNBcdA3v3")
+credentials = Credentials(username = "nlp-test",#имя пользователя в формате domain//username
+                          password = "p1KVJWPDxtRgNBcdA3v3")#pass
 
-config = Configuration(server = 'mail.mpei.ru', credentials = credentials)
+config = Configuration(server = 'mail.mpei.ru',#сервер почты
+                       credentials = credentials)
 
-account = Account(primary_smtp_address = "nlp.test@mpei.ru",
+account = Account(primary_smtp_address = "nlp.test@mpei.ru",#почтовый адрес
                   credentials = credentials,
                   autodiscover = False,
                   config = config,
