@@ -1,41 +1,20 @@
 Start of program
 DEBUG test domain: , server: mail.mpei.ru
 ------SMTP Connection test
-No Body element in SOAP response
-------Autodiscovery test
-All steps in the autodiscover protocol failed
+__init__() missing 1 required positional argument: 'build'
 ------Connection test
 Unknown failure
 Retry: 0
 Waited: 10
 Timeout: 120
-Session: 23990
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD513C160>
+Session: 25950
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48E9ED68>
 URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD513C320>
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48E9EFD0>
 Allow redirects: False
 Streaming: False
-Response time: 0.10999999998603016
-Status code: 403
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3151  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 403 Forbidden. The server denied the specified Uniform Resource Locator (URL). Contact the server administrator. (12202) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 23990
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD513C160>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD513C320>
-Allow redirects: False
-Streaming: False
-Response time: 0.10999999998603016
+Response time: 1.0310000000026776
 Status code: 403
 Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
 Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3151  '}
@@ -44,346 +23,127 @@ Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict
 
 DEBUG test domain: , server: mail.mpei.ru/owa
 ------SMTP Connection test
-No Body element in SOAP response
-------Autodiscovery test
-All steps in the autodiscover protocol failed
+__init__() missing 1 required positional argument: 'build'
 ------Connection test
 Unknown failure
 Retry: 0
 Waited: 10
 Timeout: 120
-Session: 25698
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD51C06A0>
+Session: 25678
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48EC4080>
 URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD51C0748>
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48EC4390>
 Allow redirects: False
 Streaming: False
-Response time: 0.14100000000325963
+Response time: 0.5310000000026776
 Status code: 400
 Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
-Response headers: {'Connection': 'Keep-Alive', 'Set-Cookie': 'cadata4D048BED768E4400965B9F5AEA886EA1="09a57af8e-e18b-46ee-8c8b-39b78fbf97b3XeQEINoXtId8PDhiE6B7aSgwSDpSAf3xpwXa8gaZByS7fx1UfYikUVXUxIT29FY0rAxUrLXqS46m9qATQZZM63VtvhY6kJ5PNrK6zo1yc+62ByTHrj1R6BVgM+lDkPl2NtE88c5xR0MB84vyoaRbWTO77DaoF/ZLxHVUMV6kXPk="; HttpOnly; secure; path=/, ISAWPLB{50FC2AF1-A186-40E5-BDEC-66D0716FD9C3}={ED7305F6-25CD-494B-9F26-B8E0473CF94D}; HttpOnly; Path=/', 'Transfer-Encoding': 'chunked', 'Expires': '-1', 'Date': 'Sat, 30 May 2020 11:23:58 GMT', 'Content-Type': 'text/html', 'Server': 'Microsoft-IIS/7.0', 'Cache-Control': 'no-cache, no-store', 'Pragma': 'no-cache', 'X-AspNet-Version': '2.0.50727', 'X-Powered-By': 'ASP.NET', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding'}
+Response headers: {'Connection': 'Keep-Alive', 'Set-Cookie': 'cadata4D048BED768E4400965B9F5AEA886EA1="2935597b4-3258-4178-bf9c-f49da641671e+e4M2riW6cWOzwS4EF1VwLpZAmqgdKZW58+e5OywGJ7NkND5+124mp1tlZI36Y0QkN+0ahhWtiZS6Oumw/a2xuq67FbteWv/sAaeIY3y5cx/4E7WzvfABpmdsFTcIlzkJDU/7yuFWrS4IC7tjUZg1sTVzwCpNnEFHcI9Ydfl7x4="; HttpOnly; secure; path=/, ISAWPLB{50FC2AF1-A186-40E5-BDEC-66D0716FD9C3}={ED7305F6-25CD-494B-9F26-B8E0473CF94D}; HttpOnly; Path=/', 'Transfer-Encoding': 'chunked', 'Expires': '-1', 'Date': 'Wed, 03 Jun 2020 14:25:16 GMT', 'Content-Type': 'text/html', 'Server': 'Microsoft-IIS/7.0', 'Cache-Control': 'no-cache, no-store', 'Pragma': 'no-cache', 'X-AspNet-Version': '2.0.50727', 'X-Powered-By': 'ASP.NET', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding'}
 Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
 Response data: b'Bad Request'
 
-------NTLM test
+DEBUG test domain: , server: mpei.ru
+------SMTP Connection test
+__init__() missing 1 required positional argument: 'build'
+------Connection test
+No Body element in SOAP response
+DEBUG test domain: public\, server: mail.mpei.ru
+------SMTP Connection test
+__init__() missing 1 required positional argument: 'build'
+------Connection test
 Unknown failure
 Retry: 0
 Waited: 10
 Timeout: 120
-Session: 25698
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD51C06A0>
-URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD51C0748>
+Session: 24227
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48F6A780>
+URL: https://mail.mpei.ru/EWS/Exchange.asmx
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48F6A828>
 Allow redirects: False
 Streaming: False
-Response time: 0.14100000000325963
+Response time: 0.375
+Status code: 403
+Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '458', 'Authorization': 'Basic cHVibGljXG5scC10ZXN0OmszQzNUVWRpeC0wd21yVWFNb01K'}
+Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3151  '}
+Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
+Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 403 Forbidden. The server denied the specified Uniform Resource Locator (URL). Contact the server administrator. (12202) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
+
+DEBUG test domain: public\, server: mail.mpei.ru/owa
+------SMTP Connection test
+__init__() missing 1 required positional argument: 'build'
+------Connection test
+Unknown failure
+Retry: 0
+Waited: 10
+Timeout: 120
+Session: 26007
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48F76C18>
+URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48F76CC0>
+Allow redirects: False
+Streaming: False
+Response time: 0.09400000001187436
 Status code: 400
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
-Response headers: {'Connection': 'Keep-Alive', 'Set-Cookie': 'cadata4D048BED768E4400965B9F5AEA886EA1="09a57af8e-e18b-46ee-8c8b-39b78fbf97b3XeQEINoXtId8PDhiE6B7aSgwSDpSAf3xpwXa8gaZByS7fx1UfYikUVXUxIT29FY0rAxUrLXqS46m9qATQZZM63VtvhY6kJ5PNrK6zo1yc+62ByTHrj1R6BVgM+lDkPl2NtE88c5xR0MB84vyoaRbWTO77DaoF/ZLxHVUMV6kXPk="; HttpOnly; secure; path=/, ISAWPLB{50FC2AF1-A186-40E5-BDEC-66D0716FD9C3}={ED7305F6-25CD-494B-9F26-B8E0473CF94D}; HttpOnly; Path=/', 'Transfer-Encoding': 'chunked', 'Expires': '-1', 'Date': 'Sat, 30 May 2020 11:23:58 GMT', 'Content-Type': 'text/html', 'Server': 'Microsoft-IIS/7.0', 'Cache-Control': 'no-cache, no-store', 'Pragma': 'no-cache', 'X-AspNet-Version': '2.0.50727', 'X-Powered-By': 'ASP.NET', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding'}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
+Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '458', 'Authorization': 'Basic cHVibGljXG5scC10ZXN0OmszQzNUVWRpeC0wd21yVWFNb01K'}
+Response headers: {'Connection': 'Keep-Alive', 'Set-Cookie': 'cadata4D048BED768E4400965B9F5AEA886EA1="2517b294c-162d-476f-8c02-a7cf86c73ca6TcqokmaW9PoOYHkeboaiIMHxgvFWQG17UolLYcmT8I1SCcBsHmOp9MWFk4p3WvuIqTiABMC1COd2SK5hj4eDKRQTmRGydXsGo6g/boKfrwd9rLfSZcyETtaQCQ5DD4CpehTLOGYVdL0wwt7FpqYF9j7mHJpBt9CDwxuaYpgj4/ikUi3BQz5/h4RiQfuo5EcK"; HttpOnly; secure; path=/, ISAWPLB{50FC2AF1-A186-40E5-BDEC-66D0716FD9C3}={ED7305F6-25CD-494B-9F26-B8E0473CF94D}; HttpOnly; Path=/', 'Transfer-Encoding': 'chunked', 'Expires': '-1', 'Date': 'Wed, 03 Jun 2020 14:25:19 GMT', 'Content-Type': 'text/html', 'Server': 'Microsoft-IIS/7.0', 'Cache-Control': 'no-cache, no-store', 'Pragma': 'no-cache', 'X-AspNet-Version': '2.0.50727', 'X-Powered-By': 'ASP.NET', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding'}
+Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
 Response data: b'Bad Request'
 
-DEBUG test domain: , server: mail.mpei.ru/EWS/Exchange.asmx
+DEBUG test domain: public\, server: mpei.ru
 ------SMTP Connection test
+__init__() missing 1 required positional argument: 'build'
+------Connection test
 No Body element in SOAP response
-------Autodiscovery test
-All steps in the autodiscover protocol failed
+DEBUG test domain: PUBLIC\, server: mail.mpei.ru
+------SMTP Connection test
+__init__() missing 1 required positional argument: 'build'
 ------Connection test
 Unknown failure
 Retry: 0
 Waited: 10
 Timeout: 120
-Session: 22613
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5241D30>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5241E10>
+Session: 25489
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48F9CE48>
+URL: https://mail.mpei.ru/EWS/Exchange.asmx
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48F9CEF0>
 Allow redirects: False
 Streaming: False
-Response time: 0.0779999999795109
+Response time: 0.35899999999674037
 Status code: 403
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
+Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '458', 'Authorization': 'Basic UFVCTElDXG5scC10ZXN0OmszQzNUVWRpeC0wd21yVWFNb01K'}
 Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3151  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
+Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
 Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 403 Forbidden. The server denied the specified Uniform Resource Locator (URL). Contact the server administrator. (12202) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
 
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 22613
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5241D30>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5241E10>
-Allow redirects: False
-Streaming: False
-Response time: 0.0779999999795109
-Status code: 403
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '451', 'Authorization': 'Basic bmxwLXRlc3Q6azNDM1RVZGl4LTB3bXJVYU1vTUo='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3151  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 403 Forbidden. The server denied the specified Uniform Resource Locator (URL). Contact the server administrator. (12202) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: public\\, server: mail.mpei.ru
+DEBUG test domain: PUBLIC\, server: mail.mpei.ru/owa
 ------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
+__init__() missing 1 required positional argument: 'build'
 ------Connection test
 Unknown failure
 Retry: 0
 Waited: 10
 Timeout: 120
-Session: 23398
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD50DBC50>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD50DB7B8>
-Allow redirects: False
-Streaming: False
-Response time: 0.11000000001513399
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 23398
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD50DBC50>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD50DB7B8>
-Allow redirects: False
-Streaming: False
-Response time: 0.11000000001513399
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: public\\, server: mail.mpei.ru/owa
-------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
-------Connection test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 26532
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD52FF7F0>
+Session: 24371
+Thread: 3404
+Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021E48FB4320>
 URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD52FF898>
+HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021E48FB43C8>
 Allow redirects: False
 Streaming: False
-Response time: 0.09400000001187436
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
+Response time: 0.5160000000032596
+Status code: 400
+Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '458', 'Authorization': 'Basic UFVCTElDXG5scC10ZXN0OmszQzNUVWRpeC0wd21yVWFNb01K'}
+Response headers: {'Connection': 'Keep-Alive', 'Set-Cookie': 'cadata4D048BED768E4400965B9F5AEA886EA1="2442b6903-8a8c-4fc1-a7d7-77ba1e1c5e0dtOX67xIuRuev3GZ+acOGehCofZS81tUZ3WP9xxWPFJNS0/UmBxL3RxQ+Qkl60GODFyKfheAWFg14C47O7lcTG0MIR0JGY7/oqmW7eZ/FSFyN4eu0QNI4JxgkH2p/3LnqG/SueyfsKrhPpt+Mg26Oj2F0UoH+FtVWU6nnMKbspt8H4c9tfxoUzhjlFvbAy1SA"; HttpOnly; secure; path=/, ISAWPLB{50FC2AF1-A186-40E5-BDEC-66D0716FD9C3}={ED7305F6-25CD-494B-9F26-B8E0473CF94D}; HttpOnly; Path=/', 'Transfer-Encoding': 'chunked', 'Expires': '-1', 'Date': 'Wed, 03 Jun 2020 14:25:22 GMT', 'Content-Type': 'text/html', 'Server': 'Microsoft-IIS/7.0', 'Cache-Control': 'no-cache, no-store', 'Pragma': 'no-cache', 'X-AspNet-Version': '2.0.50727', 'X-Powered-By': 'ASP.NET', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding'}
+Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
+Response data: b'Bad Request'
 
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 26532
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD52FF7F0>
-URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD52FF898>
-Allow redirects: False
-Streaming: False
-Response time: 0.09400000001187436
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: public\\, server: mail.mpei.ru/EWS/Exchange.asmx
+DEBUG test domain: PUBLIC\, server: mpei.ru
 ------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
+__init__() missing 1 required positional argument: 'build'
 ------Connection test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25383
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5218748>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5223F98>
-Allow redirects: False
-Streaming: False
-Response time: 0.09299999999348074
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25383
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5218748>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5223F98>
-Allow redirects: False
-Streaming: False
-Response time: 0.09299999999348074
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic cHVibGljXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>public\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: PUBLIC\\, server: mail.mpei.ru
-------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
-------Connection test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 26596
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD536EE80>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD536EF28>
-Allow redirects: False
-Streaming: False
-Response time: 0.10899999999674037
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 26596
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD536EE80>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD536EF28>
-Allow redirects: False
-Streaming: False
-Response time: 0.10899999999674037
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: PUBLIC\\, server: mail.mpei.ru/owa
-------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
-------Connection test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25411
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5354470>
-URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5354438>
-Allow redirects: False
-Streaming: False
-Response time: 0.09299999999348074
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25411
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5354470>
-URL: https://mail.mpei.ru/owa/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5354438>
-Allow redirects: False
-Streaming: False
-Response time: 0.09299999999348074
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-DEBUG test domain: PUBLIC\\, server: mail.mpei.ru/EWS/Exchange.asmx
-------SMTP Connection test
-All steps in the autodiscover protocol failed
-------Autodiscovery test
-All steps in the autodiscover protocol failed
-------Connection test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25758
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5216668>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5216710>
-Allow redirects: False
-Streaming: False
-Response time: 0.07800000000861473
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
-------NTLM test
-Unknown failure
-Retry: 0
-Waited: 10
-Timeout: 120
-Session: 25758
-Thread: 2268
-Auth type: <requests.auth.HTTPBasicAuth object at 0x0000021CD5216668>
-URL: https://mail.mpei.ru/EWS/Exchange.asmx/EWS/Exchange.asmx
-HTTP adapter: <exchangelib.protocol.NoVerifyHTTPAdapter object at 0x0000021CD5216710>
-Allow redirects: False
-Streaming: False
-Response time: 0.07800000000861473
-Status code: 500
-Request headers: {'User-Agent': 'exchangelib/2.1.0 (python-requests/2.22.0)', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'text/xml; charset=utf-8', 'Content-Length': '459', 'Authorization': 'Basic UFVCTElDXFxubHAtdGVzdDprM0MzVFVkaXgtMHdtclVhTW9NSg=='}
-Response headers: {'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Content-Type': 'text/html', 'Content-Length': '3090  '}
-Request data: b'<?xml version=\'1.0\' encoding=\'utf-8\'?>\n<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><s:Header><t:RequestServerVersion Version="Exchange2019"/></s:Header><s:Body><m:ResolveNames ReturnFullContactData="false"><m:UnresolvedEntry>PUBLIC\\\\nlp-test</m:UnresolvedEntry></m:ResolveNames></s:Body></s:Envelope>'
-Response data: b'\xef\xbb\xbf<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">\r\n<head>\r\n \r\n<title>The page cannot be displayed</title>\r\n<meta http-equiv="content-type" content="text/html; charset=utf-8" />\r\n\r\n<style>\r\nbody {\r\n\t\r\n\tbackground:#e5eaf5 url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bg.gif) top left repeat-x ;\r\n\tmargin:0px 0px 0px 0px;\r\n\tfont-family:Arial, Helvetica, sans-serif;\r\n\tmin-width:1000px;\r\n\tfont-size:12px;\r\n\tcolor:#000000;\r\n\tdirection:ltr;\r\n\t}\r\nimg {border:none}\r\n\r\n\r\n\t.main {\r\n\t\twidth:100%;\r\n\t\tbackground:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/topright.gif) top right no-repeat;\r\n\t\tmin-width:1000px;\r\n\t\tmin-height:400px;\r\n\t\tmargin-left:auto;\r\n\t\tmargin-right:auto;\r\n\t\ttext-align:left;\r\n\t}\r\n\t\r\n\t.logo {float:left;  height:103px; }\r\n\t.sidetext {float:right; width:182px; height:52px; background:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/sidetext.png) top left; border:1px solid #2a2e31; margin-right:20px; margin-top:20px; padding:4px; }\r\n\t.sidetextNone {visibility:hidden; }\r\n\t\r\n\t.whiteline {float:left; clear:both; font-size:20px; margin-left:47px; margin-top:17px; color:#ffffff; white-space:nowrap; }\r\n\t.bold {font-weight:bold;}\r\n\t\r\n\t.maintext {float:left; margin-top:20px; clear:both; color:#000; margin-left:47px;}\r\n\t\r\n\t.color1 {color:#677183;}\r\n\t\r\n\tul {margin-top:0; padding-left:15px; padding-top:5px; padding-bottom:5px;}\r\n\t\r\n\tul li {list-style-image:url(/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/bullet.gif)}\r\n\tA {\r\n    FONT-WEIGHT: bold; COLOR: #005a80;\r\n}\r\nA:hover {\r\n    FONT-WEIGHT: bold;COLOR: #0d3372;\r\n}\r\n</style>\r\n  \r\n</head>\r\n<body>\r\n\t<div class="main">\r\n        <div class="logo"><img src="/Wbo-C2F49197-3BFD-4A94-B956-D93D94B71A4B/logo.png" alt="ForeFront" /></div>\r\n        <div class="whiteline"><td id=L_defaultr_3><span class="bold">Network Access Message:</span> The page cannot be displayed </td></div>\r\n    <div class="maintext">\r\n    <td id=L_defaultr_5><span class="bold color1">Explanation:</span> There is a problem with the page you are trying to reach and it cannot be displayed.</td><br />\r\n<br />\r\n\r\n<td id=L_defaultr_7><span class="bold color1">Try the following:</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_8><span class="bold">Refresh page:</span> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.</td></li>\r\n<li><td id=L_defaultr_9><span class="bold">Check spelling:</span> Check that you typed the Web page address correctly. The address may have been mistyped.</td></li>\r\n<li><td id=L_defaultr_10><span class="bold">Access from a link:</span> If there is a link to the page you are looking for, try accessing the page from that link.</td></li>\r\n</ul>\r\n\r\n<td id=L_defaultr_11><span class="bold color1">Technical Information (for support personnel)</span></td><br />\r\n<ul>\r\n<li><td id=L_defaultr_12><span class="bold">Error Code:</span></td> 500 Internal Server Error. The parameter is incorrect. (87) </li>\r\n</ul>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>\r\n'
-
+No Body element in SOAP response
 End of program
